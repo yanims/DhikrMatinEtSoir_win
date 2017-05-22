@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Priere Matin Et Soir</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="tv_xx">XX/</string>
+    <string name="tv_yy">YY</string>
+    <string name="tv_jumlah">Dibaca ZZ kali</string>
+    <string name="tv_arabic_text">Original citation</string>
+    <string name="tv_indonesian_text">Translation citation</string>
+    <string name="tv_sanad">Sanad</string>
+</resources>

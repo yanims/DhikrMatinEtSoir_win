@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_activity_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="60">
+
+
+    <LinearLayout
+        android:id="@+id/priere"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="70dp"
+        android:gravity="center"
+        android:layout_weight="20">
+
+        <Button
+            android:id="@+id/b_pray_show"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/button_priere"/>
+        <Button
+            android:id="@+id/b_pray_play"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/button_unmute"
+            android:layout_marginLeft="20dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/morning"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:layout_weight="20">
+
+        <Button
+            android:id="@+id/b_morning_show"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/button_matin"/>
+
+        <Button
+            android:id="@+id/b_morning_play"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/button_unmute"
+            android:layout_marginLeft="20dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/evening"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:layout_weight="20"
+        android:layout_marginBottom="150dp">
+
+        <Button
+            android:id="@+id/b_evening_show"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/button_soir"/>
+
+        <Button
+            android:id="@+id/b_evening_play"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/button_unmute"
+            android:layout_marginLeft="20dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
